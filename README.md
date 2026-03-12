@@ -2,6 +2,10 @@
 
 A [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that wraps the Refgrow REST API. This allows AI agents -- Claude Desktop, Cursor, ChatGPT, and other MCP-compatible clients -- to manage your affiliate program directly.
 
+<a href="https://glama.ai/mcp/servers/refgrow/refgrow-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/refgrow/refgrow-mcp-server/badge" alt="Refgrow Server MCP server" />
+</a>
+
 ## Prerequisites
 
 - Node.js 18+
