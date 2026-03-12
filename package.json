@@ -1,6 +1,6 @@
 {
   "name": "@refgrow/mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Model Context Protocol server for Refgrow affiliate program management API",
   "type": "module",
   "main": "dist/index.js",
