@@ -17,7 +17,8 @@ npm install @refgrow/mcp
 Or clone and build from source:
 
 ```bash
-cd packages/mcp-server
+git clone https://github.com/refgrow/refgrow-mcp.git
+cd refgrow-mcp
 npm install
 npm run build
 ```
@@ -189,7 +190,7 @@ REFGROW_API_KEY=rgk_your_key npm start
 ## API Reference
 
 This MCP server wraps the Refgrow REST API v1. Full API documentation is available at:
-https://refgrow.com/docs/api
+https://refgrow.com/docs/api-reference
 
 All endpoints require Bearer token authentication with an `rgk_` prefixed API key.
 
