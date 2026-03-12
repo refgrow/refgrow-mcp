@@ -2,7 +2,8 @@
  * Refgrow MCP Server - Tool Definitions
  *
  * Wraps the Refgrow REST API v1 endpoints as MCP tools.
- * API docs: https://refgrow.com/docs/api-reference
+ * Docs: https://refgrow.com/docs/mcp-server
+ * API Reference: https://refgrow.com/docs/api-reference
  */
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";

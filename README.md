@@ -187,12 +187,13 @@ npm run dev
 REFGROW_API_KEY=rgk_your_key npm start
 ```
 
-## API Reference
+## Documentation
 
-This MCP server wraps the Refgrow REST API v1. Full API documentation is available at:
+Full setup guide with examples and troubleshooting:
+https://refgrow.com/docs/mcp-server
+
+REST API reference (for direct HTTP integration):
 https://refgrow.com/docs/api-reference
-
-All endpoints require Bearer token authentication with an `rgk_` prefixed API key.
 
 ## License
 
