@@ -1,0 +1,50 @@
+{
+  "name": "@refgrow/mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Refgrow affiliate program management API",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "refgrow-mcp": "dist/index.js",
+    "@refgrow/mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "refgrow",
+    "affiliate",
+    "referral",
+    "ai",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "homepage": "https://refgrow.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/refgrow/refgrow-mcp"
+  },
+  "author": "Alex Belogubov <alexandr.belogubov@gmail.com>",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
