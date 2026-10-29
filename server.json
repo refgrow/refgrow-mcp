@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.refgrow/mcp",
+  "description": "Model Context Protocol server for Refgrow affiliate program management API",
+  "repository": {
+    "url": "https://github.com/refgrow/refgrow-mcp",
+    "source": "github"
+  },
+  "version": "1.3.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@refgrow/mcp",
+      "version": "1.3.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "REFGROW_API_KEY",
+          "description": "Your Refgrow API key (starts with rgk_)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true
+        },
+        {
+          "name": "REFGROW_API_URL",
+          "description": "Refgrow API base URL",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
